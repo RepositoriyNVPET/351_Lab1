@@ -8,10 +8,10 @@ int main()
 {
 	float a, b, c;
 	setlocale (LC_CTYPE, "ukr");
-	cout<<"Введіть а:";
+	cout<<"Р’С‹РІРѕРґ Р°:";
 	cin>>a;
-	cout<<"Введіть b:";
+	cout<<"Р’С‹РІРѕРґ b:";
 	cin>>b;
 	a=sqrt(pow(a,2)+pow(b,2));
-	printf("Довжина гіпотенузи: %.2f",a);
+	printf("Г„Г®ГўГ¦ГЁГ­Г  ГЈВіГЇГ®ГІГҐГ­ГіГ§ГЁ: %.2f",a);
 }
