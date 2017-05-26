@@ -13,5 +13,5 @@ int main()
 	cout<<"Вывод b:";
 	cin>>b;
 	a=sqrt(pow(a,2)+pow(b,2));
-	printf("Äîâæèíà ã³ïîòåíóçè: %.2f",a);
+	printf("Вывод на экран: %.2f",a);
 }
